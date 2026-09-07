@@ -35,7 +35,9 @@ const SHOP = [
 export function Footer() {
   return (
     <footer className="border-t border-border bg-secondary/60">
+      <Newsletter />
       <div className="mx-auto grid max-w-[1400px] gap-6 px-4 py-10 sm:grid-cols-2 lg:grid-cols-5">
+
         {VALUES.map(({ icon: Icon, title, copy }) => (
           <div key={title} className="flex min-w-0 items-center gap-3">
             <Icon className="h-5 w-5 shrink-0 text-primary" />
