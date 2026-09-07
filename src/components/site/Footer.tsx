@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Newsletter } from "@/components/site/Newsletter";
 import {
   CreditCard,
   Facebook,
